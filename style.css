@@ -1,0 +1,742 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: white;
+    height: 70px;
+}
+
+#boton_desplegable{
+    width: 18px;
+    height: 26px;
+    position: absolute;
+    left: 26px;
+    top: 22px;
+    border-style: none;
+    background-color: white;
+}
+
+.lineas_boton_desplegable{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-style: none;
+    border-radius: 20px;
+}
+
+#linea_1_boton_desplegable{
+    top: 0px;
+}
+
+#linea_2_boton_desplegable{
+    top: 6px;
+}
+
+#linea_3_boton_desplegable{
+    top: 12px;
+}
+
+#logo_youtube{
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+#barra_busqueda{
+    left: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 532px;
+    height: 42px;
+    border-style: double;
+    border-width: 1px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: rgb(126, 124, 124);
+    position: absolute;
+    left: 360px;
+    top: 10px;
+    text-indent: 14px;
+}
+
+#boton_buscar{
+    width: 60px;
+    height: 42px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: double;
+    border-width: 1px;
+    border-color: rgb(126, 124, 124);
+    background-color: rgb(211, 211, 211);
+    position: absolute;
+    top: 10px;
+    left: 891px;
+}
+
+#logo_lupa{
+    height: 20px;
+    width: 20px;
+}
+
+#microfono{
+    border-style: none;
+    background-color: rgb(211, 211, 211);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    position: absolute;
+    left: 969px;
+    top: 12px;
+}
+
+#logo_microfono{
+    width: 17px;
+    height: 18px;
+}
+
+#configuracion{
+    border-style: none;
+    border-radius: 50%;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 17px;
+    left: 1187px;
+}
+
+.puntos_configuracion{
+    background-color: rgb(0, 0, 0);
+    border-radius: 90%;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+}
+
+#punto_1_configuracion{
+    left: 11px;
+    top: 5px;
+}
+
+#punto_2_configuracion{
+    left: 11px;
+    top: 11px;
+}
+
+#punto_3_configuracion{
+    left: 11px;
+    top: 17px;
+}
+
+#acceder{
+    border-width: 1px;
+    color: blue;
+    font-weight: bold;
+    width: 105px;
+    height: 34px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: rgb(177, 177, 177);
+    background-color: white;
+    position: absolute;
+    top: 12px;
+    left: 1223px;
+}
+
+#logo_sin_perfil{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+#texto_acceder{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 8px;
+}
+
+main{
+    height: 800px;
+    background-color: white;
+}
+
+#division_etiquetas{
+    width: 1237px;
+    height: 47px;
+    background-color: white;
+    position: absolute;
+    left: 110px;
+    top: 71px;
+}
+
+.boton_etiquetas{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(177, 177, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    font-size: 14px;
+    position: absolute;
+    top: 7px;
+}
+
+#boton_todos{
+    width: 55px;
+}
+
+#boton_html{
+    width: 55px;
+    left: 70px;
+}
+
+#boton_musica{
+    width: 58px;
+    left: 139px;
+}
+
+#boton_suspenso{
+    width: 80px;
+    left: 210px;
+}
+
+#boton_videojuegos{
+    width: 94px;
+    left: 305px;
+}
+
+#boton_misterio{
+    width: 64px;
+    left: 412px;
+}
+
+#boton_aplicacion_informatica{
+    width: 160px;
+    left: 489px ;
+}
+
+#boton_presentaciones{
+    width: 112px;
+    left: 662px;
+}
+
+#boton_series_television{
+    width: 137px;
+    left: 788px;
+}
+
+#boton_historial_tag{
+    width: 65px;
+    left: 939px;
+}
+
+#boton_superheroe{
+    width: 85px;
+    left: 1018px;
+}
+
+#boton_comedias{
+    width: 68px;
+    left: 1117px;
+}
+
+#boton_derecha_tags{
+    color: black;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: white;
+    position: absolute;
+    left: 1195px;
+    top: 5px;
+}
+
+#division_secciones{
+    height: 100%;
+    width: 110px;
+    background-color: white;
+    position: absolute;
+}
+
+.boton_secciones{
+    border-radius: 10px;
+    border-style: none;
+    background-color: white;
+    width: 70px;
+    height: 75px;
+    position: absolute;
+    left: 10px;
+}
+
+.texto_secciones{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    position: absolute;
+}
+
+#boton_casa{
+    top: 6px;
+}
+
+#imagen_casa{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 9px;
+    left: 18px;
+}
+
+#texto_casa{
+    top: 42px;
+    left: 14px;
+}
+
+#boton_shorts{
+    top: 90px;
+}
+
+#imagen_shorts{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 3px;
+    left: 15px;
+}
+
+#texto_shorts{
+    left: 20px;
+    top: 40px;
+}
+
+#boton_suscripciones{
+    top: 175px;
+}
+
+#imagen_suscripciones{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 11px;
+    left: 23px;
+}
+
+#texto_suscripciones{
+    left: 1px;
+    top: 43px;
+}
+
+#boton_biblioteca{
+    top: 260px;
+}
+
+#imagen_biblioteca{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 12px;
+    left: 22px;
+}
+
+#texto_biblioteca{
+    left: 12px;
+    top: 44px;
+}
+
+#boton_historial{
+    top: 345px;
+}
+
+#imagen_historial{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+
+#texto_historial{
+    left: 15px;
+    top: 49px;
+}
+
+.division_videos{
+    height: 330px;
+    width: 1239px;
+    background-color: white;
+    position: absolute;
+    left: 110px;
+}
+
+.hipervinculo_videos{
+    text-decoration: none;
+}
+.division_video{
+    width: 400px;
+    height: 330px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+}
+
+.miniatura_videos{
+    border-radius: 20px;
+    width: 100%;
+    height: 225px;
+}
+
+.duracion_videos{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.795);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 205px;
+}
+
+.foto_creadores{
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 235px;
+    left: 3px;
+}
+
+.titulo_videos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 330px;
+    color: black;
+    position: absolute;
+    top: 235px;
+    left: 51px;
+}
+
+.nombre_creadores{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(126, 124, 124);
+    position: absolute;
+    left: 51px;
+    top: 282px;
+}
+
+.informacion_videos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(126, 124, 124);
+    position: absolute;
+    left: 51px;
+    top: 303px;
+}
+
+#division_videos_html{
+    top: 148px;
+}
+
+#duracion_video_1{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_2{
+    left: 415px;
+}
+
+#duracion_video_2{
+    width: 55px;
+    left: 333px;
+}
+
+#division_video_3{
+    left: 829px;
+}
+
+#duracion_video_3{
+    width: 38px;
+    left: 349px;
+}
+
+#division_videos_musica{
+    top: 511px;
+}
+
+#duracion_video_4{
+    width: 38px;
+    left: 349px;
+}
+
+#division_video_5{
+    left: 415px;
+}
+
+#duracion_video_5{
+    width: 38px;
+    left: 349px;
+}
+
+#division_video_6{
+    left: 829px;
+}
+
+#duracion_video_6{
+    width: 55px;
+    left: 333px;
+}
+
+#division_videos_suspenso{
+    top: 872px;
+}
+
+#duracion_video_7{
+    width: 55px;
+    left: 333px;
+}
+
+#division_video_8{
+    left: 415px;
+}
+
+#duracion_video_8{
+    width: 55px;
+    left: 333px;
+}
+
+#division_video_9{
+    left: 829px;
+}
+
+#duracion_video_9{
+    width: 55px;
+    left: 333px;
+}
+
+#division_videos_videojuegos{
+    top: 1236px;
+}
+
+#duracion_video_10{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_11{
+    left: 415px;
+}
+
+#duracion_video_11{
+    width: 38px;
+    left: 349px;
+}
+
+#division_video_12{
+    left: 829px;
+}
+
+#duracion_video_12{
+    width: 42px;
+    left: 347px;
+}
+
+#division_videos_misterio{
+    top: 1599px;
+}
+
+#duracion_video_13{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_14{
+    left: 415px;
+}
+
+#duracion_video_14{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_15{
+    left: 829px;
+}
+
+#duracion_video_15{
+    width: 42px;
+    left: 347px;
+}
+
+#division_videos_aplicacion_informatica{
+    top: 1961px;
+}
+
+#duracion_video_16{
+    width: 38px;
+    left: 349px;
+}
+
+#division_video_17{
+    left: 415px;
+}
+
+#duracion_video_17{
+    width: 38px;
+    left: 349px;
+}
+
+#division_video_18{
+    left: 829px;
+}
+
+#duracion_video_18{
+    width: 38px;
+    left: 349px;
+}
+
+#division_videos_presentaciones{
+    top: 2324px;
+}
+
+#duracion_video_19{
+    width: 38px;
+    left: 349px;
+}
+
+#division_video_20{
+    left: 415px;
+}
+
+#duracion_video_20{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_21{
+    left: 829px;
+}
+
+#duracion_video_21{
+    width: 38px;
+    left: 349px;
+}
+
+#division_videos_series_television{
+    top: 2686px;
+}
+
+#duracion_video_22{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_23{
+    left: 415px;
+}
+
+#duracion_video_23{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_24{
+    left: 829px;
+}
+
+#duracion_video_24{
+    width: 42px;
+    left: 347px;
+}
+
+#division_videos_chill_out{
+    top: 3049px;
+}
+
+#duracion_video_25{
+    width: 55px;
+    left: 333px;
+}
+
+#division_video_26{
+    left: 415px;
+}
+
+#duracion_video_26{
+    width: 55px;
+    left: 333px;
+}
+
+#division_video_27{
+    left: 829px;
+}
+
+#duracion_video_27{
+    width: 38px;
+    left: 349px;
+}
+
+#division_videos_superheroe{
+    top: 3410px;
+}
+
+#duracion_video_28{
+    width: 42px;
+    left: 347px;
+}
+
+#division_video_29{
+    left: 415px;
+}
+
+#duracion_video_29{
+    width: 38px;
+    left: 349px;
+}
+
+#division_video_30{
+    left: 829px;
+}
+
+#duracion_video_30{
+    width: 38px;
+    left: 349px;
+}
+
+#division_videos_comedias{
+    top: 3772px;
+}
+
+#duracion_video_31{
+    width: 55px;
+    left: 333px;
+}
+
+#division_video_32{
+    left: 415px;
+}
+
+#duracion_video_32{
+    width: 55px;
+    left: 333px;
+}
+
+#division_video_33{
+    left: 829px;
+}
+
+#duracion_video_33{
+    width: 38px;
+    left: 349px;
+}

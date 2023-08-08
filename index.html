@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"  href="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <button id="boton_desplegable">
+            <hr class="lineas_boton_desplegable" id="linea_1_boton_desplegable">
+            <hr class="lineas_boton_desplegable" id="linea_2_boton_desplegable">
+            <hr class="lineas_boton_desplegable" id="linea_3_boton_desplegable">
+        </button>
+        <a href="#menu">
+            <img id="logo_youtube"
+            src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-1-3.png"
+            alt="logo de youtube">
+        </a>
+        <input type="text" id="barra_busqueda" placeholder="Buscar">
+        <button id="boton_buscar">
+            <img id="logo_lupa"
+            src="https://images.vexels.com/media/users/3/140723/isolated/preview/158241d2079a635fb0cae49accb56da5-icono-de-lupa.png"
+            alt="imagen de lupa">
+        </button>
+        <button id="microfono">
+            <img id="logo_microfono"
+            src="https://icones.pro/wp-content/uploads/2021/12/icone-de-microphone-noir.png"
+            alt="imagen de microfono">
+        </button>
+        <button id="configuracion">
+            <div id="punto_1_configuracion" class="puntos_configuracion"></div>
+            <div id="punto_2_configuracion" class="puntos_configuracion"></div>
+            <div id="punto_3_configuracion" class="puntos_configuracion"></div>
+        </button>
+        <a href="https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dvideojuegos&hl=es-419&ec=65620">
+            <button id="acceder">
+                <img id="logo_sin_perfil"
+                src="https://img.freepik.com/iconos-gratis/usuario_318-928335.jpg"
+                alt="imagen sin perfil">
+                <p id="texto_acceder">Acceder</p>
+            </button>
+        </a>
+    </nav>
+    <main id="menu">
+        <div id="division_etiquetas">
+            <a href="#menu">
+                <button class="boton_etiquetas" id="boton_todos">Todos</button>
+            </a>
+            <a href="#division_videos_html">
+            <button class="boton_etiquetas" id="boton_html">HTML</button>
+            </a>
+            <a href="#division_videos_musica">
+            <button class="boton_etiquetas" id="boton_musica">Música</button>
+            </a>
+            <a href="#division_videos_suspenso">
+                <button class="boton_etiquetas" id="boton_suspenso">Suspenso</button>
+            </a>
+            <a href="#division_videos_videojuegos">
+                <button class="boton_etiquetas" id="boton_videojuegos">Videojuegos</button>
+            </a>
+            <a href="#division_videos_misterio">
+                <button class="boton_etiquetas" id="boton_misterio">Misterio</button>
+            </a>
+            <a href="#division_videos_aplicacion_informatica">
+                <button class="boton_etiquetas" id="boton_aplicacion_informatica">Aplicación Informática</button>
+            </a>
+            <a href="#division_videos_presentaciones">
+                <button class="boton_etiquetas" id="boton_presentaciones">Presentaciones</button>
+            </a>
+            <a href="#division_videos_series_television">
+                <button class="boton_etiquetas" id="boton_series_television">Series de televisión</button>
+            </a>
+            <a href="#division_videos_chill_out">
+                <button class="boton_etiquetas" id="boton_historial_tag">Chill out</button>
+            </a>
+            <a href="#division_videos_superheroe">
+                <button class="boton_etiquetas" id="boton_superheroe">Superhéroe</button>
+            </a>
+            <a href="#division_videos_comedias">
+                <button class="boton_etiquetas" id="boton_comedias">Comedias</button>
+            </a>
+            <button id="boton_derecha_tags">></button>
+        </div>
+        <div id="division_secciones">
+            <a href="#menu">
+                <button class="boton_secciones" id="boton_casa">
+                    <img id="imagen_casa"
+                    src="https://static.vecteezy.com/system/resources/previews/009/589/972/original/home-icon-transparent-free-png.png"
+                    alt="imagen casa">
+                    <p class="texto_secciones" id="texto_casa">Principal</p>
+                </button>
+            </a>
+            <a href="https://www.youtube.com/shorts/tA36AXq2zBg">
+                <button class="boton_secciones" id="boton_shorts">
+                    <img id="imagen_shorts"
+                    src="https://storage.googleapis.com/support-forums-api/attachment/thread-192129487-1835648349494362801.png"
+                    alt="imagen shortcut">
+                    <p class="texto_secciones" id="texto_shorts">Shorts</p>
+                </button>
+            </a>
+            <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3D%252Ffeed%252Fsubscriptions&hl=es-419&passive=true&service=youtube&uilel=3&ifkv=AXo7B7VqGULAkSTyBFp__P9ypzNFF51mJGYqNpufJ8cw9R0I0q9RWduaL7kHx__EgaiuoBVzH9AgRA&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                <button class="boton_secciones" id="boton_suscripciones">
+                    <img id="imagen_suscripciones"
+                    src="https://static.vecteezy.com/system/resources/previews/009/992/297/non_2x/simple-video-library-icon-sign-design-free-png.png"
+                    alt="imagen suscripciones">
+                    <p class="texto_secciones" id="texto_suscripciones">Suscripciones</p>
+                </button>
+            </a>
+            <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3D%252Ffeed%252Fsubscriptions&hl=es-419&passive=true&service=youtube&uilel=3&ifkv=AXo7B7VqGULAkSTyBFp__P9ypzNFF51mJGYqNpufJ8cw9R0I0q9RWduaL7kHx__EgaiuoBVzH9AgRA&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                <button class="boton_secciones" id="boton_biblioteca">
+                    <img id="imagen_biblioteca"
+                    src="https://cdn.icon-icons.com/icons2/1369/PNG/512/-video-library_90558.png"
+                    alt="imagen biblioteca">
+                    <p class="texto_secciones" id="texto_biblioteca">Biblioteca</p>
+                </button>
+            </a>
+            <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3D%252Ffeed%252Fsubscriptions&hl=es-419&passive=true&service=youtube&uilel=3&ifkv=AXo7B7VqGULAkSTyBFp__P9ypzNFF51mJGYqNpufJ8cw9R0I0q9RWduaL7kHx__EgaiuoBVzH9AgRA&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                <button class="boton_secciones" id="boton_historial">
+                    <img id="imagen_historial"
+                    src="https://cdn-icons-png.flaticon.com/512/32/32284.png?w=2000"
+                    alt="imagen historial">
+                    <p class="texto_secciones" id="texto_historial">Historial</p>
+                </button>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_html">
+            <a class="hipervinculo_videos"
+            href="videos/video_1.html">
+                <div class="division_video">
+                    <img class="miniatura_videos" id="minitatura_video_1"
+                    src="https://i.ytimg.com/vi/84o47055oEM/maxresdefault.jpg"
+                    alt="miniatura video 1">
+                    <p class="duracion_videos" id="duracion_video_1">10:57</p>
+                    <img class="foto_creadores" id="foto_creador_1" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaT4V4EUA8eMo5erxeF-6P0NgoNmiSQY5TOCmnI95Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos" id="titulo_video_1">Crear un Menú de navegación con HTML y CSS - Desarrollo Web</p>
+                    <p class="nombre_creadores" id="nombre_creador_1">Roger Natividad</p>
+                    <p class="informacion_videos" id="informacion_video_1">82 k vistas * hace 3 años</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_2">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/MJkdaVFHrto/maxresdefault.jpg"
+                    alt="miniatura video 2">
+                    <p class="duracion_videos" id="duracion_video_2">1:33:55</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/Z69fhRL9_OaXsDz-XsCUe2sGIqU7G1F5Mwl0PwlBsx_ll13K0nLb47q7_RMen7NHvzMVDgd2=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Aprende HTML ahora! curso completo GRATIS desde cero</p>
+                    <p class="nombre_creadores">HolaMundo</p>
+                    <p class="informacion_videos">1.6 M vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="videos/video_3.html">
+                <div class="division_video" id="division_video_3">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/B-jCi2rq7Jc/maxresdefault.jpg"
+                    alt="miniatura video 3">
+                    <p class="duracion_videos" id="duracion_video_3">5:36</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/n--5uNJGfvapSJW4XzWU3nkoH-fdmkGTq_sntYG8YzTnXSWUvj55_H52iZZ2S05ss2fbXUbWP7k=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">HTML en 3 Minutos! (No, no es lenguaje de Programación pero...)</p>
+                    <p class="nombre_creadores">Absolute</p>
+                    <p class="informacion_videos">33 k vistas * hace 2 años</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_musica">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/MkO9g3ywnG4/maxresdefault.jpg"
+                    alt="miniatura video 4">
+                    <p class="duracion_videos" id="duracion_video_4">3:18</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/UOfV-yAjK3u8pwtX9oWJopwLP47ZH_FME23LgaTISeyr3C7JX1bBICRyKKuXoxVDMyIVitpg8g=s88-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Myke Towers - LALA (Lyric Video)</p>
+                    <p class="nombre_creadores">Myke Towers</p>
+                    <p class="informacion_videos">159 M vistas * hace 4 meses</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_5">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/3inw26U-os4/maxresdefault.jpg"
+                    alt="miniatura video 5">
+                    <p class="duracion_videos" id="duracion_video_5">3:15</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/AitXyJq5b9fw0BqI69U5y8ORqlXastzak9hxDgu91ASxxoQ2iqNKWWF_bhD-oN5FydkXRhhWXQ=s88-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Grupo Frontera x Bad Bunny - UN X100TO (Video Oficial) | El Comienzo</p>
+                    <p class="nombre_creadores">Grupo Frontera</p>
+                    <p class="informacion_videos">427 M vistas * hace 3 meses</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_6">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/1AJzG2PisEc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAPRF9fWiSwhe2B5FT3338TDskvIg"
+                    alt="miniatura video 6">
+                    <p class="duracion_videos" id="duracion_video_6">1:14:16</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaRwterHZmcfrTi0BqGAmy18yazFFgp-gkTQ4J0_=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Silvio Rodríguez Sus Mejores Canciones (20 Grandes Exitos) - Full Album 2019</p>
+                    <p class="nombre_creadores">Latino Clasico TV</p>
+                    <p class="informacion_videos">1.3 M vistas * hace 3 años</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_suspenso">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/rLp8OiAlPPA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfhd6speNYLkIyWkEbWlZ_bMK0yg"
+                    alt="miniatura video 7">
+                    <p class="duracion_videos" id="duracion_video_7">1:29:02</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaQLTeq5Kh-ANjoPLPSRgt7YXImvMTuKspKzUv-ofQ=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">película de suspenso en español (Tërror ën päris)</p>
+                    <p class="nombre_creadores">ZUKY QUEEN WESKER</p>
+                    <p class="informacion_videos">14 k vistas * hace 8 días</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_8">
+                    <img class="miniatura_videos"
+                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfzIjlVDgM7B5RTYNNQY08vLdXMto3zLGDrjFHCCZ_dftnZEvz"
+                    alt="miniatura video 8">
+                    <p class="duracion_videos" id="duracion_video_8">1:25:20</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/Gr3u0TyXn7rSQS2SLwh6bSANNShR18HqQYoHo9rp1RdRQlUIapqY2BQQFFbHJkRi2rl2YsFrmw=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">No escaparas pelicula de suspenso y terror 2022</p>
+                    <p class="nombre_creadores">Soy_Lobo_Asado [Oficial]</p>
+                    <p class="informacion_videos">258 k vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_9">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/QnT4yEND7G8/maxresdefault.jpg"
+                    alt="miniatura video 9">
+                    <p class="duracion_videos" id="duracion_video_9">1:33:40</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/31MoRY6F70poKLXF-G5ZIE4A-RDyick92OeulPI6TZU5psn1wF1v0u5giuyMiLK26o-CzZCH=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Obsesión Peligrosa // Película Completa Doblada // Suspense // Film Plus...</p>
+                    <p class="nombre_creadores">Film Plus - Español</p>
+                    <p class="informacion_videos">1.3 M vistas * hace 3 meses</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_videojuegos">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/Xnise3lZ0P8/maxresdefault.jpg"
+                    alt="miniatura video 10">
+                    <p class="duracion_videos" id="duracion_video_10">25:18</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/UgnTIrRAor6kOlWuJdSc-eTCL7OUcfc2yuXZFurADMnAWOE-l7KjYxm6QTzm2O7NZ4E9KPMjQg=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">¡SKIBIDI TOILETS VS LA CASA MÁS SEGURA DE VIDEOJUEGOS!</p>
+                    <p class="nombre_creadores">John Falz</p>
+                    <p class="informacion_videos">14 k vistas * hace 8 días</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_11">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/67840A89WxE/maxresdefault.jpg"
+                    alt="miniatura video 11">
+                    <p class="duracion_videos" id="duracion_video_11">7:34</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/Yt8V6-o5eHjYxQB3bdsc9HFU45DrSCzqjExsjYAtIsuLd8Eo6SxEGhtmtymzeqCQBoWEwnGAOjM=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">14 SECRETOS INCREÍBLES al estar AFK en VIDEOJUEGOS</p>
+                    <p class="nombre_creadores">DeeLe</p>
+                    <p class="informacion_videos">524 k vistas * hace 8 días</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_12">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/qvhb83Ty_wY/sddefault.jpg"
+                    alt="miniatura video 12">
+                    <p class="duracion_videos" id="duracion_video_12">24:24</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaTxSqhwKEwNS7yozUCa_wWVL0QqdUwplteLTXr6ng=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">14 Finales de Videojuegos que Casi Nadie ha Visto</p>
+                    <p class="nombre_creadores">Zico Tops</p>
+                    <p class="informacion_videos">917 k vistas * hace 1 mes</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_misterio">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/Z6n8oybjFnU/mqdefault.jpg"
+                    alt="miniatura video 13">
+                    <p class="duracion_videos" id="duracion_video_13">15:45</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaT652ebu7UN0FQfQJoPmB5QySmKtxy78am6S65nsw=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Los OVNIS en el Congreso ¿Quiénes son estas dos personas y porque Bob...</p>
+                    <p class="nombre_creadores">Vm granmisterio</p>
+                    <p class="informacion_videos">177 k vistas * hace 4 días</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_14">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/B2nWD9IgBew/hqdefault.jpg"
+                    alt="miniatura video 14">
+                    <p class="duracion_videos" id="duracion_video_14">14:54</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/M3RlYhTv6zDgsMFvTPTv-WfOho3OyEm0EI1m30LmRSoo1kDvE651JlDxOhM7zHPEMXbKuBPaRQ=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Fue atormentada por la voz de un demonio que la obligó a asesinar...</p>
+                    <p class="nombre_creadores">Pepe Misterio</p>
+                    <p class="informacion_videos">13 k vistas * hace 3 días</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_15">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/WRUD4g96ivA/maxresdefault.jpg"
+                    alt="miniatura video 15">
+                    <p class="duracion_videos" id="duracion_video_15">25:37</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/W41yygOQ_SpT6liy-GvYgcrftO5Sa76iksX4t8QN7bx6QbKzOYIKTF2Kf59b79UD0YIDSutHFw=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">15 Misterios De Las Profundidades Marinas Que Te Asustarán</p>
+                    <p class="nombre_creadores">TopDiscovery ES</p>
+                    <p class="informacion_videos">140 k vistas * hace 9 días</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_aplicacion_informatica">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/xFH34e8La4Y/maxresdefault.jpg"
+                    alt="miniatura video 16">
+                    <p class="duracion_videos" id="duracion_video_16">7:30</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/h_wVZO7bps9AJwXsFTeqxDk0alW_pSpjKDI5Hpk5TJMA-VniVEPX39g8XS0Y1Mnm9V3eSvWfLRU=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">La INFORMÁTICA explicada: para qué sirve, historia, características...</p>
+                    <p class="nombre_creadores">Lifeder Educación</p>
+                    <p class="informacion_videos">8.4 k vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_17">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/X-St53kGDa0/mqdefault.jpg"
+                    alt="miniatura video 17">
+                    <p class="duracion_videos" id="duracion_video_17">1:07</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/tokwqvnWzSh1FCsSyNdiG8brJkEfVTDOkacy0pW37HqBhU7mnSu3jS1W2vbKLkkZAtTGk54WWA=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Qué es programa en informática | Curso de Informática básica</p>
+                    <p class="nombre_creadores">GCFAprendeLibre</p>
+                    <p class="informacion_videos">153 k vistas * hace 9 años</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_18">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/iO5zCwrjH50/maxresdefault.jpg"
+                    alt="miniatura video 18">
+                    <p class="duracion_videos" id="duracion_video_18">4:22</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/4SFHq4C_WANghp12JOf2fIdf7bG4a0osdhUCAfW6sM3A1gvFsGm9satfXcGpL9DRtWqfnZmr=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Tipos de #aplicaciones #informaticas</p>
+                    <p class="nombre_creadores">Ciencia-Edu</p>
+                    <p class="informacion_videos">34 k vistas * hace 9 años</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_presentaciones">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/RHfxdxMVEpg/maxresdefault.jpg"
+                    alt="miniatura video 19">
+                    <p class="duracion_videos" id="duracion_video_19">5:40</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/XPah4CkLuDjfisvUJBuHL76bsFLLJXtik6k5XrVEaZ7QhzqIkEhoxBMtk3NeeGNNkNhcV011eA=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Top 9 APLICACIONES para crear PRESENTACIONES</p>
+                    <p class="nombre_creadores">Xataka</p>
+                    <p class="informacion_videos">113 k vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_20">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/ZM4lygsNpxI/maxresdefault.jpg"
+                    alt="miniatura video 20">
+                    <p class="duracion_videos" id="duracion_video_20">29:46</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/FmjzKvfpi_gMBncS_HJXLy4JTlCIqYMuPauFeFbxEpgvJeFBn-vGjO9qlgarjlVAiqxP45AP=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Cómo Crear Presentaciones PROFESIONALES en POWERPOINT</p>
+                    <p class="nombre_creadores">Master Tech Academy</p>
+                    <p class="informacion_videos">299 k vistas * hace 6 meses</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_21">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/CL9JPfG4XiM/maxresdefault.jpg"
+                    alt="miniatura video 21">
+                    <p class="duracion_videos" id="duracion_video_21">6:35</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/3T1ovKPhTh0m1lH_RGPabK84oYiyl8qxrJAx0UL3ILN7JG_SwMkC64tSXZDa21MSdbNbT9Q4fg=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Crea presentaciones con CHAT GPT y CANVA</p>
+                    <p class="nombre_creadores">Asesor Virtual - Mtro. Ricardo</p>
+                    <p class="informacion_videos">2.1 k vistas * hace 1 mes</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_series_television">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/HO6f-tJxuBc/maxresdefault.jpg"
+                    alt="miniatura video 22">
+                    <p class="duracion_videos" id="duracion_video_22">12:06</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaRcJL7qLWWRr3XqcylHHdAUGWjaIwt3H5uWc2bmgQ=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">TOP 10 Mejores SERIES de AMAZON PRIME VIDEO 2022</p>
+                    <p class="nombre_creadores">BingerTv</p>
+                    <p class="informacion_videos">52 k vistas * hace 7 meses</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_23">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/JUi95Onm_Xk/mqdefault.jpg"
+                    alt="miniatura video 23">
+                    <p class="duracion_videos" id="duracion_video_23">23:15</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/N3E9JPNRA7lmfLY0Yxme6JM4vTsP27nAg9Y2if4xT05HZk8vFAiqJQVxlb68ZJUygwH99LpDqA=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">El Llanero Solitario - Serie de TV</p>
+                    <p class="nombre_creadores">Series Archivo Tv Piura Perú</p>
+                    <p class="informacion_videos">972 k vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_24">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/ErGBxYISmX4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8m5RDsjEEg66C1dNGaHjpMsOy0Q"
+                    alt="miniatura video 24">
+                    <p class="duracion_videos" id="duracion_video_24">20:01</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/SJ5BRAJ3lDrYlGn7Hvodir4f4N5bEr7ev6aZ43tp-MfjCcJhrE0V9bzE0IQw2weXnzUn8zxY=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">TOP 21 DE SERIES DE ACCIÓN DE LOS 80S</p>
+                    <p class="nombre_creadores">YO VIVÍ EN LOS 80S</p>
+                    <p class="informacion_videos">20 k vistas * hace 4 meses</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_chill_out">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/3oLspvU8mGI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuPBDHtJGplBZ7yek4eL_clzcohw"
+                    alt="miniatura video 25">
+                    <p class="duracion_videos" id="duracion_video_25">1:01:25</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaQosog-6FZrCDYd5pM1OLrIOE-0oysFGWpk7Uabaw=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">AMBIENT LOUNGE CHILLOUT RELAXING MUSIC The Essence of...</p>
+                    <p class="nombre_creadores">Relax Chillout Music</p>
+                    <p class="informacion_videos">1.1 k vistas * hace 4 horas</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_26">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/cq2Ef6rvL6g/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEsoPTAP&rs=AOn4CLCT_OnOsBpXSKeDaQGLKCUwSoLSMg"
+                    alt="miniatura video 26">
+                    <p class="duracion_videos" id="duracion_video_26">3:03:14</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaQosog-6FZrCDYd5pM1OLrIOE-0oysFGWpk7Uabaw=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">AMBIENT CHILLOUT LOUNGE RELAXING MUSIC - Essential Relax...</p>
+                    <p class="nombre_creadores">Relax Chillout Music</p>
+                    <p class="informacion_videos">42 M vistas * hace 3 años</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_27">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/UdkjtyNFww4/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIFEofzAP&rs=AOn4CLCUVX4Adjilh4Kmjte3nK0Cc6DRiw"
+                    alt="miniatura video 27">
+                    <p class="duracion_videos" id="duracion_video_27">5:58</p>
+                    <img class="foto_creadores"
+                    src="https://yt3.ggpht.com/k6P4wQ91yGe3X2f8bKp1N-gt0Cv99qDl-e8JuuXuA4VRcQeOIABx5PFy47qaGGLZZp_Fxp_ZQA=s88-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Chillout Music 2023 | Aurora Night - See You</p>
+                    <p class="nombre_creadores">Aurora Night</p>
+                    <p class="informacion_videos">334 k vistas * hace 5 meses</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="division_videos" id="division_videos_superheroe">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/TzwB62cWsAw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3ysg2V47ZcOvjLW56R7IAQhoBbA"
+                    alt="miniatura video 28">
+                    <p class="duracion_videos" id="duracion_video_28">42:03</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaRKbymD6bW0PJ8QX5oESl5EYqJ7ioQ2z-x6AX683rs=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">EVOLUCION y CAIDA de los SUPERHEROES en el CINE...</p>
+                    <p class="nombre_creadores">Te lo resumo</p>
+                    <p class="informacion_videos">2.3 M vistas * hace 10 días</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_29">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/9Fkl50BR7_k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLANZpctgh20pRCYw4p3gycL-jkiVQ"
+                    alt="miniatura video 29">
+                    <p class="duracion_videos" id="duracion_video_29">1:32</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/ytc/AOPolaS822tvHUmfCDy3RHJuopbOtWrl6iZ5cxMd6PKr=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Flash "Salva" a Wonder Woman | La Liga de la Justicia | Full Hd Latino 2018</p>
+                    <p class="nombre_creadores">Peliculas y Series Escenas</p>
+                    <p class="informacion_videos">1.7 M vistas * hace 5 años</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_30">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/SEeLqALKt7s/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXk7YhRF4PP5kgyC-J_-h4hOR5EA"
+                    alt="miniatura video 30">
+                    <p class="duracion_videos" id="duracion_video_30">3:13</p>
+                    <img class="foto_creadores"
+                    src="https://yt3.ggpht.com/ytc/AOPolaRiKflYsV1V0sGmkAWeMqna5bLBfI5-RYyMjzNk7A=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Avengers vs Ejercito Chitauri Español Latino</p>
+                    <p class="nombre_creadores">GTMovies MX</p>
+                    <p class="informacion_videos">2.8 M vistas * hace 4 años</p>
+                </div>
+            </a>
+        </div>
+        <div class="division_videos" id="division_videos_comedias">
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/uS6xsyFvJuE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQ6kbzcxb7moruYpIxqY2sDuMSNg"
+                    alt="miniatura video 31">
+                    <p class="duracion_videos" id="duracion_video_31">1:51:15</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/4fz8rUa8Id1cVkdunIO_CNLiTzN8rh3DQ6SOB-PWI5hz6nG97AhKehSgIaShZHgfTJJCgllp=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">SANKY PANKY (Part 1) - Peliculas Dominicanas Completa en HD...</p>
+                    <p class="nombre_creadores">Franzzy</p>
+                    <p class="informacion_videos">2.2 M vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_32">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/fbgC-i8fD0A/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBR6_zfZZwrWwlC9__OIxS9PHuGUg"
+                    alt="miniatura video 32">
+                    <p class="duracion_videos" id="duracion_video_32">1:39:35</p>
+                    <img class="foto_creadores" 
+                    src="https://yt3.ggpht.com/aFB5dhtQLxEnJvXjKZWClxzaBXvSgPk2HrOJ3ZWVBXiN_EEc7KUafWqwKQhhD7W0bnsBuX7r=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">Mejor Película De Comedia 2023 | Netflix | Película Completa En Español</p>
+                    <p class="nombre_creadores">Netflix Películas Completas En Español</p>
+                    <p class="informacion_videos">390 k vistas * hace 4 meses</p>
+                </div>
+            </a>
+            <a class="hipervinculo_videos"
+            href="">
+                <div class="division_video" id="division_video_33">
+                    <img class="miniatura_videos"
+                    src="https://i.ytimg.com/vi/oJnLdG8hJko/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVGxn6amgsXMfqsqOV_WssUMNO3A"
+                    alt="miniatura video 33">
+                    <p class="duracion_videos" id="duracion_video_33">7:31</p>
+                    <img class="foto_creadores"
+                    src="https://yt3.ggpht.com/ytc/AOPolaSZlOUosBk660vX1YQMpmjoeIWf_yKYiGA9Rdzc=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="titulo_videos">TOP 10 Mejores PELÍCULAS de COMEDIA para LLORAR de RISA</p>
+                    <p class="nombre_creadores">zoNetflix</p>
+                    <p class="informacion_videos">68 k vistas * hace 5 meses</p>
+                </div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

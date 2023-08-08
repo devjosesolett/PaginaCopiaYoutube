@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear un Menú de navegación con HTML y CSS - Desarrollo Web</title>
+    <link rel="stylesheet" href="style_videos.css">
+    <link rel="shortcut icon" href="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <button id="boton_desplegable">
+            <hr class="lineas_boton_desplegable" id="linea_1_boton_desplegable">
+            <hr class="lineas_boton_desplegable" id="linea_2_boton_desplegable">
+            <hr class="lineas_boton_desplegable" id="linea_3_boton_desplegable">
+        </button>
+        <a href="../index.html">
+            <img id="logo_youtube"
+            src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-1-3.png"
+            alt="logo de youtube">
+        </a>
+        <input type="text" id="barra_busqueda" placeholder="Buscar">
+        <button id="boton_buscar">
+            <img id="logo_lupa"
+            src="https://images.vexels.com/media/users/3/140723/isolated/preview/158241d2079a635fb0cae49accb56da5-icono-de-lupa.png"
+            alt="imagen de lupa">
+        </button>
+        <button id="microfono">
+            <img id="logo_microfono"
+            src="https://icones.pro/wp-content/uploads/2021/12/icone-de-microphone-noir.png"
+            alt="imagen de microfono">
+        </button>
+        <button id="configuracion">
+            <div id="punto_1_configuracion" class="puntos_configuracion"></div>
+            <div id="punto_2_configuracion" class="puntos_configuracion"></div>
+            <div id="punto_3_configuracion" class="puntos_configuracion"></div>
+        </button>
+        <a href="https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dvideojuegos&hl=es-419&ec=65620">
+            <button id="acceder">
+                <img id="logo_sin_perfil"
+                src="https://img.freepik.com/iconos-gratis/usuario_318-928335.jpg"
+                alt="imagen sin perfil">
+                <p id="texto_acceder">Acceder</p>
+            </button>
+        </a>
+    </nav>
+    <main>
+        <div id="division_reproduccion">
+            <iframe id="reproductor_video"
+            width="560" height="315"
+            src="https://www.youtube.com/embed/B-jCi2rq7Jc?autoplay=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture;
+            web-share" allowfullscreen></iframe>
+            <p class="titulo_video_principal_1_linea">HTML en 3 Minutos! (No, no es lenguaje de Programación pero...)</p>
+            <div class="division_descripcion_1_linea">
+                <a href="">
+                    <img class="imagen_creador"
+                    src="https://yt3.ggpht.com/n--5uNJGfvapSJW4XzWU3nkoH-fdmkGTq_sntYG8YzTnXSWUvj55_H52iZZ2S05ss2fbXUbWP7k=s68-c-k-c0x00ffffff-no-rj"
+                    alt="foto perfil del creador">
+                    <p class="nombre_creador">Absolute</p>
+                </a>
+                <p class="informacion_video_principal">244 K suscriptores</p>
+                <a href="https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dvideojuegos&hl=es-419&ec=65620">
+                    <button class="boton_suscribirse">Suscribirse</button>
+                    <button class="boton_me_gusta">
+                        <img class="imagen_me_gusta"
+                        src="https://icones.pro/wp-content/uploads/2021/04/icone-noire-noir.png"
+                        alt="logo me gusta">
+                        <p class="cantidad_me_gusta">3.1 K</p>
+                    </button>
+                    <button class="boton_no_me_gusta">
+                        <img class="imagen_no_me_gusta"
+                        src="https://cdn-icons-png.flaticon.com/512/126/126504.png"
+                        alt="logo no me gusta">
+                    </button>
+                </a>
+                <hr class="linea_botones_gustar">
+                <button class="boton_compartir">
+                    <img class="imagen_compartir"
+                    src="https://pngimg.com/d/share_PNG25.png"
+                    alt="logo compartir">
+                    <p class="texto_compartir">Compartir</p>
+                </button>
+                <div class="caja_descripcion">
+                    <p class="visualizaciones_video_principal">33 k vistas hace 2 años</p>
+                    <p class="descripcion">HTML, un lenguaje de programación o no? En este vídeo te cuento su historia y funcionalidades. Si lees esto comenta "Que bonito día para comer helado"</p>
+                    <button class="boton_mas">...más</button>
+                </div>
+                <p class="cantidad_comentario">0 comentarios</p>
+                <button class="boton_ordenar">
+                    <hr id="linea_arriba">
+                    <hr id="linea_centro">
+                    <hr id="linea_abajo">
+                    <p class="texto_ordenar">Ordenar por</p>
+                </button>
+                <a href="https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dvideojuegos&hl=es-419&ec=65620">
+                    <button class="escribir_comentario">
+                        <img class="imagen_perfil"
+                        src="https://cdn-icons-png.flaticon.com/512/8847/8847419.png"
+                        alt="imagen perfil">
+                        <input type="text" class="input_comentario" placeholder="Agrega un comentario...">
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div id="division_videos_relacionados">
+            <button id="boton_mas_comentarios">Mostrar la repetición del chat</button>
+            <a href="video_1.html">
+                <div class="division_videos" id="division_video_1">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/84o47055oEM/maxresdefault.jpg"
+                    alt="imagen video 1">
+                    <p class="duracion_mm">10:57</p>
+                    <p class="titulo_videos_relacionados">Crear un Menú de navegación con HTML y CSS - Desa...</p>
+                    <p class="creador_videos_relacionados">Roger Natividad</p>
+                    <p class="informacion_videos_relacionados">82 k vistas * hace 3 año</p>
+                </div>
+            </a>
+            <a href="video_4.html">
+                <div class="division_videos" id="division_video_2">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/MkO9g3ywnG4/maxresdefault.jpg"
+                    alt="imagen video 2">
+                    <p class="duracion_m">3:18</p>
+                    <p class="titulo_videos_relacionados">Myke Towers - LALA (Lyric Video)</p>
+                    <p class="creador_videos_relacionados">Myke Towers</p>
+                    <p class="informacion_videos_relacionados">159 M vistas * hace 4 meses</p>
+                </div>
+            </a>
+            <a href="video_8.html">
+                <div class="division_videos" id="division_video_3">
+                    <img class="miniaturas"
+                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfzIjlVDgM7B5RTYNNQY08vLdXMto3zLGDrjFHCCZ_dftnZEvz"
+                    alt="imagen video 3">
+                    <p class="duracion_h">1:25:20</p>
+                    <p class="titulo_videos_relacionados">No escaparas pelicula de suspenso y terror 2022</p>
+                    <p class="creador_videos_relacionados">Soy_Lobo_Asado [Oficial]</p>
+                    <p class="informacion_videos_relacionados">258 k vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a href="video_10.html">
+                <div class="division_videos" id="division_video_4">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/Xnise3lZ0P8/maxresdefault.jpg"
+                    alt="imagen video 4">
+                    <p class="duracion_mm">25:18</p>
+                    <p class="titulo_videos_relacionados">¡SKIBIDI TOILETS VS LA CASA MÁS SEGURA...</p>
+                    <p class="creador_videos_relacionados">John Falz</p>
+                    <p class="informacion_videos_relacionados">14 k vistas * hace 8 días</p>
+                </div>
+            </a>
+            <a href="video_13.html">
+                <div class="division_videos" id="division_video_5">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/Z6n8oybjFnU/mqdefault.jpg"
+                    alt="imagen video 5">
+                    <p class="duracion_mm">15:45</p>
+                    <p class="titulo_videos_relacionados">Los OVNIS en el Congreso ¿Quiénes son estas dos...</p>
+                    <p class="creador_videos_relacionados">Vm granmisterio</p>
+                    <p class="informacion_videos_relacionados">177 k vistas * hace 4 días</p>
+                </div>
+            </a>
+            <a href="video_17.html">
+                <div class="division_videos" id="division_video_6">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/X-St53kGDa0/mqdefault.jpg"
+                    alt="imagen video 6">
+                    <p class="duracion_m">1:07</p>
+                    <p class="titulo_videos_relacionados">Qué es programa en informática | Curso de...</p>
+                    <p class="creador_videos_relacionados">GCFAprendeLibre</p>
+                    <p class="informacion_videos_relacionados">153 k vistas * hace 9 años</p>
+                </div>
+            </a>
+            <a href="video_19.html">
+                <div class="division_videos" id="division_video_7">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/RHfxdxMVEpg/maxresdefault.jpg"
+                    alt="imagen video 7">
+                    <p class="duracion_m">5:40</p>
+                    <p class="titulo_videos_relacionados">Top 9 APLICACIONES para crear PRESENTACIONES</p>
+                    <p class="creador_videos_relacionados">Xataka</p>
+                    <p class="informacion_videos_relacionados">113 k vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a href="video_22.html">
+                <div class="division_videos" id="division_video_8">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/HO6f-tJxuBc/maxresdefault.jpg"
+                    alt="imagen video 8">
+                    <p class="duracion_mm">12:06</p>
+                    <p class="titulo_videos_relacionados">TOP 10 Mejores SERIES de AMAZON PRIME VIDEO 2022</p>
+                    <p class="creador_videos_relacionados">BingerTv</p>
+                    <p class="informacion_videos_relacionados">52 k vistas * hace 7 meses</p>
+                </div>
+            </a>
+            <a href="video_27.html">
+                <div class="division_videos" id="division_video_9">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/UdkjtyNFww4/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIFEofzAP&rs=AOn4CLCUVX4Adjilh4Kmjte3nK0Cc6DRiw"
+                    alt="imagen video 9">
+                    <p class="duracion_m">5:58</p>
+                    <p class="titulo_videos_relacionados">Chillout Music 2023 | Aurora Night - See You</p>
+                    <p class="creador_videos_relacionados">Aurora Night</p>
+                    <p class="informacion_videos_relacionados">334 k vistas * hace 5 meses</p>
+                </div>
+            </a>
+            <a href="video_28.html">
+                <div class="division_videos" id="division_video_10">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/TzwB62cWsAw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3ysg2V47ZcOvjLW56R7IAQhoBbA"
+                    alt="imagen video 10">
+                    <p class="duracion_mm">42:03</p>
+                    <p class="titulo_videos_relacionados">EVOLUCION y CAIDA de los SUPERHEROES en el CINE...</p>
+                    <p class="creador_videos_relacionados">Te lo resumo</p>
+                    <p class="informacion_videos_relacionados">2.3 M vistas * hace 10 días</p>
+                </div>
+            </a>
+            <a href="video_33.html">
+                <div class="division_videos" id="division_video_11">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/oJnLdG8hJko/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVGxn6amgsXMfqsqOV_WssUMNO3A"
+                    alt="imagen video 11">
+                    <p class="duracion_m">7:31</p>
+                    <p class="titulo_videos_relacionados">TOP 10 Mejores PELÍCULAS de COMEDIA para LLORAR...</p>
+                    <p class="creador_videos_relacionados">zoNetflix</p>
+                    <p class="informacion_videos_relacionados">68 k vistas * hace 5 meses</p>
+                </div>
+            </a>
+            <a href="video_2.html">
+                <div class="division_videos" id="division_video_12">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/MJkdaVFHrto/maxresdefault.jpg"
+                    alt="imagen video 12">
+                    <p class="duracion_h">1:33:55</p>
+                    <p class="titulo_videos_relacionados">Aprende HTML ahora! curso completo GRATIS desde cero</p>
+                    <p class="creador_videos_relacionados">HolaMundo</p>
+                    <p class="informacion_videos_relacionados">1.6 M vistas * hace 1 año</p>
+                </div>
+            </a>
+            <a href="video_5.html">
+                <div class="division_videos" id="division_video_13">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/3inw26U-os4/maxresdefault.jpg"
+                    alt="imagen video 13">
+                    <p class="duracion_m">3:15</p>
+                    <p class="titulo_videos_relacionados">Grupo Frontera x Bad Bunny - UN X100TO (Video Oficial)...</p>
+                    <p class="creador_videos_relacionados">Grupo Frontera</p>
+                    <p class="informacion_videos_relacionados">427 M vistas * hace 3 meses</p>
+                </div>
+            </a>
+            <a href="video_7.html">
+                <div class="division_videos" id="division_video_14">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/rLp8OiAlPPA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfhd6speNYLkIyWkEbWlZ_bMK0yg"
+                    alt="imagen video 14">
+                    <p class="duracion_h">1:29:02</p>
+                    <p class="titulo_videos_relacionados">película de suspenso en español (Tërror ën päris)</p>
+                    <p class="creador_videos_relacionados">ZUKY QUEEN WESKER</p>
+                    <p class="informacion_videos_relacionados">14 k vistas * hace 8 días</p>
+                </div>
+            </a>
+            <a href="video_12.html">
+                <div class="division_videos" id="division_video_15">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/qvhb83Ty_wY/sddefault.jpg"
+                    alt="imagen video 15">
+                    <p class="duracion_mm">24:24</p>
+                    <p class="titulo_videos_relacionados">14 Finales de Videojuegos que Casi Nadie ha Visto</p>
+                    <p class="creador_videos_relacionados">Zico Tops</p>
+                    <p class="informacion_videos_relacionados">917 k vistas * hace 1 mes</p>
+                </div>
+            </a>
+            <a href="video_15.html">
+                <div class="division_videos" id="division_video_16">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/WRUD4g96ivA/maxresdefault.jpg"
+                    alt="imagen video 16">
+                    <p class="duracion_mm">25:37</p>
+                    <p class="titulo_videos_relacionados">15 Misterios De Las Profundidades Marinas Que...</p>
+                    <p class="creador_videos_relacionados">TopDiscovery ES</p>
+                    <p class="informacion_videos_relacionados">140 k vistas * hace 9 días</p>
+                </div>
+            </a>
+            <a href="video_18.html">
+                <div class="division_videos" id="division_video_17">
+                    <img class="miniaturas"
+                    src="https://i.ytimg.com/vi/iO5zCwrjH50/maxresdefault.jpg"
+                    alt="imagen video 17">
+                    <p class="duracion_m">4:22</p>
+                    <p class="titulo_videos_relacionados">Tipos de #aplicaciones #informaticas</p>
+                    <p class="creador_videos_relacionados">Ciencia-Edu</p>
+                    <p class="informacion_videos_relacionados">34 k vistas * hace 9 años</p>
+                </div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

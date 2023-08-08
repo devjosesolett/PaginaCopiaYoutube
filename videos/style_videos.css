@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+
+#boton_desplegable{
+    width: 18px;
+    height: 13px;
+    position: absolute;
+    left: 26px;
+    top: 22px;
+    border-style: none;
+    background-color: white;
+}
+
+.lineas_boton_desplegable{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-style: none;
+    border-radius: 20px;
+}
+
+#linea_1_boton_desplegable{
+    top: 0px;
+}
+
+#linea_2_boton_desplegable{
+    top: 6px;
+}
+
+#linea_3_boton_desplegable{
+    top: 12px;
+}
+
+#logo_youtube{
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+#barra_busqueda{
+    left: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 532px;
+    height: 42px;
+    border-style: double;
+    border-width: 1px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: rgb(126, 124, 124);
+    position: absolute;
+    left: 360px;
+    top: 10px;
+    text-indent: 14px;
+}
+
+#boton_buscar{
+    width: 60px;
+    height: 42px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: double;
+    border-width: 1px;
+    border-color: rgb(126, 124, 124);
+    background-color: rgb(211, 211, 211);
+    position: absolute;
+    top: 10px;
+    left: 891px;
+}
+
+#logo_lupa{
+    height: 20px;
+    width: 20px;
+}
+
+#microfono{
+    border-style: none;
+    background-color: rgb(211, 211, 211);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    position: absolute;
+    left: 969px;
+    top: 12px;
+}
+
+#logo_microfono{
+    width: 17px;
+    height: 18px;
+}
+
+#configuracion{
+    border-style: none;
+    border-radius: 50%;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 17px;
+    left: 1187px;
+}
+
+.puntos_configuracion{
+    background-color: rgb(0, 0, 0);
+    border-radius: 90%;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+}
+
+#punto_1_configuracion{
+    left: 11px;
+    top: 5px;
+}
+
+#punto_2_configuracion{
+    left: 11px;
+    top: 11px;
+}
+
+#punto_3_configuracion{
+    left: 11px;
+    top: 17px;
+}
+
+#acceder{
+    border-width: 1px;
+    color: blue;
+    font-weight: bold;
+    width: 105px;
+    height: 34px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: rgb(177, 177, 177);
+    background-color: white;
+    position: absolute;
+    top: 12px;
+    left: 1223px;
+}
+
+#logo_sin_perfil{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+#texto_acceder{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 8px;
+}
+
+main{
+    background-color: white;
+    width: 100%;
+    height: 1870px;
+    position: absolute;
+    top: 70px;
+}
+
+#division_reproduccion{
+    background-color: white;
+    width: 736px;
+    height: 1500px;
+    position: absolute;
+    top: 15px;
+    left: 94px;
+}
+
+#reproductor_video{
+    width: 100%;
+    height: 395px;
+    position: absolute;
+}
+
+.titulo_video_principal_1_linea{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 412px;
+    left: 2px;
+}
+
+.division_descripcion_1_linea{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 444px;
+}
+
+.imagen_creador{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1px;
+}
+
+.nombre_creador{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 185px;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 53px;
+}
+
+.informacion_video_principal{
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+    left: 53px;
+}
+
+.boton_suscribirse{
+    border-style: double;
+    border: 1px;
+    border-radius: 50px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    width: 100px;
+    height: 32px;
+    position: absolute;
+    top: 4px;
+    left: 250px;
+}
+
+.boton_me_gusta{
+    background-color: rgb(177, 177, 177);
+    border-color: rgb(177, 177, 177);
+    text-decoration: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: none;
+    width: 101px;
+    height: 30px;
+    position: absolute;
+    top: 4px;
+    left: 462px;
+}
+
+.imagen_me_gusta{
+    background-color: rgb(177, 177, 177);
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    position: 0px;
+    left: 11px;
+    top: -1px;
+}
+
+.cantidad_me_gusta{
+    font-weight: bold;
+    position: absolute;
+    top: 6px;
+    left: 52px;
+}
+
+.boton_no_me_gusta{
+    background-color: rgb(177, 177, 177);
+    border-color: rgb(177, 177, 177);
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: none;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 4px;
+    left: 560px;
+}
+
+.imagen_no_me_gusta{
+    transform: rotateY(180deg);
+    background-color: rgb(177, 177, 177);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    position: 0px;
+    left: 17px;
+    top: 3px;
+}
+
+.linea_botones_gustar{
+    border-style: none;
+    width: 1px;
+    height: 20px;
+    background-color: rgb(126, 124, 124);
+    position: absolute;
+    left: 560px;
+    top: 9px;
+}
+
+.boton_compartir{
+    border-style: none;
+    background-color: rgb(177, 177, 177);
+    border-radius: 30px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 4px;
+    left: 625px;
+}
+
+.imagen_compartir{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 7px;
+    top: 0px;
+    background-color: rgb(177, 177, 177);
+}
+
+.texto_compartir{
+    font-weight: bold;
+    position: absolute;
+    top: 7px;
+    left: 36px;
+}
+
+.caja_descripcion{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(177, 177, 177);
+    position: absolute;
+    border-radius: 8px;
+    top: 62px;
+}
+
+.visualizaciones_video_principal{
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 13px;
+    top: 10px;
+}
+
+.descripcion{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 31px;
+    left: 13px;
+}
+
+.boton_mas{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 177, 177);
+    border-style: none;
+    position: absolute;
+    left: 13px;
+    top: 72px;
+}
+
+.cantidad_comentario{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 184px;
+}
+
+.boton_ordenar{
+    background-color: white;
+    border-style: none;
+    width: 108px;
+    height: 13px;
+    position: absolute;
+    top: 183px;
+    left: 145px;
+}
+
+#linea_arriba{
+    height: 1px;
+    border-color: black;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+
+}
+
+#linea_centro{
+    height: 1px;
+    border-color: black;
+    width: 13px;
+    position: absolute;
+    top: 5px;
+}
+
+#linea_abajo{
+    height: 1px;
+    border-color: black;
+    width: 8px;
+    position: absolute;
+    top: 10px;
+}
+
+.texto_ordenar{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    left: 32px;
+    top: -2px;
+}
+
+.escribir_comentario{
+    border-style: none;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+}
+
+.imagen_perfil{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+
+.input_comentario{
+    background-color: white;
+    height: 28px;
+    width: 679px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 57px;
+    top: -2px;
+}
+
+#division_videos_relacionados{
+    background-color: white;
+    height: 1850px;
+    width: 402px;
+    position: absolute;
+    top: 20px;
+    left: 855px;
+}
+
+#boton_mas_comentarios{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: white;
+    border-style: double;
+    border-color: rgb(177, 177, 177);
+    font-weight: bold;
+}
+
+.division_videos{
+    height: 94px;
+    width: 374px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+}
+
+.miniaturas{
+    border-radius: 15px;
+    height: 100%;
+    width: 145px;
+    position: absolute;
+}
+
+.duracion_m{
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 34px;
+    position: absolute;
+    top: 73px;
+    left: 105px;
+}
+
+.duracion_mm{
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 40px;
+    position: absolute;
+    top: 73px;
+    left: 100px;
+}
+
+.duracion_h{
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 51px;
+    position: absolute;
+    top: 73px;
+    left: 87px;
+}
+
+.titulo_videos_relacionados{
+    width: 200px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 154px;
+    top: 2px;
+}
+
+.creador_videos_relacionados{
+    width: 180px;
+    font-size: 12px;
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 154px;
+    top: 43px;
+}
+
+.informacion_videos_relacionados{
+    width: 180px;
+    font-size: 12px;
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 154px;
+    top: 61px;
+}
+
+#division_video_1{
+    top: 63px;
+}
+
+#division_video_2{
+    top: 168px;
+}
+
+#division_video_3{
+    top: 273px;
+}
+
+#division_video_4{
+    top: 378px;
+}
+
+#division_video_5{
+    top: 483px;
+}
+
+#division_video_6{
+    top: 588px;
+}
+
+#division_video_7{
+    top: 693px;
+}
+
+#division_video_8{
+    top: 798px;
+}
+
+#division_video_9{
+    top: 903px;
+}
+
+#division_video_10{
+    top: 1008px;
+}
+
+#division_video_11{
+    top: 1113px;
+}
+
+#division_video_12{
+    top: 1218px;
+}
+
+#division_video_13{
+    top: 1323px;
+}
+
+#division_video_14{
+    top: 1428px;
+}
+
+#division_video_15{
+    top: 1533px;
+}
+
+#division_video_16{
+    top: 1638px;
+}
+
+#division_video_17{
+    top: 1743px;
+}
