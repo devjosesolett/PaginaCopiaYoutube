@@ -460,7 +460,8 @@ main{
 .input_comentario{
     background-color: white;
     height: 28px;
-    width: 679px;
+    width: 668px;
+    border-color: rgb(177, 177, 177);
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
